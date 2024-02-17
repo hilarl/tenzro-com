@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-529, -227)">
+            <g id="Group" transform="translate(530, 228)">
+                <g id="Oval" stroke="#FFFFFF">
+                    <circle cx="21" cy="21" r="21"></circle>
+                    <circle cx="21" cy="21" r="16.9189313"></circle>
+                    <circle cx="21" cy="21" r="11.8499657"></circle>
+                </g>
+                <circle id="Oval" fill="#375D77" fill-rule="nonzero" cx="30.2243663" cy="6.77380681" r="1.85830098"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

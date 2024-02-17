@@ -2,6 +2,8 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from '../components/header';
 import Image from 'next/image';
+import Completion from '../components/completion';
+import Playground from '../components/playground';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +29,7 @@ export default function RootLayout({ children }) {
             <h3 class="text-md md:text-xl mt-6 md:mt-10 text-center text-white">Our novel digital infrastructure injects artificial intelligence and encryption into the blockchain, enabling developers to build web3 applications that are intelligent and secure.</h3>
           </div>
         </section>
+        <Playground />
         {children}
       </body>
     </html>

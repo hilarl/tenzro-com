@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Artboard" transform="translate(-1010, -227)">
+            <g id="Group" transform="translate(1011, 228)">
+                <g transform="translate(-0, 0)" id="Rectangle" stroke="#FFFFFF">
+                    <polygon transform="translate(29.7468, 29.872) rotate(-45) translate(-29.7468, -29.872)" points="21.181238 21.3063858 38.3226375 21.2961756 38.3124272 38.437575 21.1710277 38.4477853"></polygon>
+                    <polygon transform="translate(12.165, 29.7799) rotate(45) translate(-12.165, -29.7799)" points="3.5892045 21.2041323 20.730604 21.2143426 20.7408142 38.355742 3.59941479 38.3455317"></polygon>
+                    <polygon transform="translate(8.5657, 20.9629) rotate(90) translate(-8.5657, -20.9629)" points="-0.0102103912 12.3972385 17.1415638 12.3972385 17.1415638 29.5285919 -0.0102103912 29.5285919"></polygon>
+                    <polygon transform="translate(12.2541, 12.1793) rotate(135) translate(-12.2541, -12.1793)" points="3.68845264 3.61367537 20.8298953 3.60346505 20.8196849 20.7449077 3.67824233 20.755118"></polygon>
+                    <polygon transform="translate(21.062, 8.5759) rotate(180) translate(-21.062, -8.5759)" points="12.4963409 9.6088236e-10 29.6276944 9.58605195e-10 29.6276944 17.1517742 12.4963409 17.1517742"></polygon>
+                    <polygon transform="translate(29.8348, 12.268) rotate(-135) translate(-29.8348, -12.268)" points="21.2589691 3.69214666 38.4004865 3.70235702 38.4106968 20.8438743 21.2691795 20.833664"></polygon>
+                    <polygon transform="translate(33.4343, 21.0845) rotate(-90) translate(-33.4343, -21.0845)" points="24.8584361 12.5188541 42.0102104 12.5188541 42.0102104 29.6502076 24.8584361 29.6502076"></polygon>
+                </g>
+                <rect id="Rectangle" stroke="#B2D138" x="12" y="25" width="17" height="17"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
