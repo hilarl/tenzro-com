@@ -10,29 +10,25 @@ import Image from './Image';
 const links = [
   {
     title: "Discover",
-    href: "/",
-    src: "home.png"
+    href: "#discover",
+    // src: "home.png"
   },
   {
-    title: "Network",
-    href: "/shop",
-    src: "shop.png"
+    title: "Solutions",
+    href: "#solutions",
+    // src: "home.png"
   },
   {
-    title: "Ecosystem",
-    href: "/about",
-    src: "home.png"
+    title: "Tokenomics",
+    href: "#tokenomics",
+    // src: "home.png"
   },
+  ,
   {
-    title: "Build",
-    href: "/lookbook",
-    src: "lookbook.png"
+    title: "Governance",
+    href: "#governance",
+    // src: "home.png"
   },
-  {
-    title: "Contribute",
-    href: "/contact",
-    src: "contact.png"
-  }
 ]
 
 export default function Index() {

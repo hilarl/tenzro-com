@@ -116,11 +116,6 @@ body {
   opacity: 0;
 }
 
-.accordion-number {
-  font-size: 42px;
-  margin-right: 32px;
-}
-
 .accordion-title:hover {
   text-decoration: none!important;
 }

@@ -1,3 +1,5 @@
+// nav/Body/index.jsx
+
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import styles from './style.module.scss';
