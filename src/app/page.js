@@ -44,10 +44,10 @@ export default function Home() {
       </div>
       <div class='min-h-screen px-6 md:px-12' id="discover">
         <div class="md:flex">
-          <div class="p-8 w-full md:w-1/2 border border-neutral-200 rounded-lg text-black md:h-64 mt-20 mr-20 mono-regular-h">
+          <div class="p-8 w-full md:w-1/2 border border-neutral-200 rounded-lg text-black h-auto md:h-72 mt-20 mr-20 mono-regular-h">
             <h1 className="text-xl md:text-3xl mb-4">Whats possible with Tenzro</h1>
-            <p className="mb-24 text-sm md:text-md text-neutral-400 mono-light">Build AI-powered apps on Tenzro with our ML tools.</p>
-            <Link className="text-sm font-bold" href="#">TRY THE CORTEX PLAYGROUND (TBA)</Link>
+            <p className="mb-24 text-sm md:text-lg text-neutral-400 mono-light">Build AI-powered apps on Tenzro with our ML tools.</p>
+            <Link className="text-sm md:text-md font-bold" href="#">TRY THE CORTEX PLAYGROUND (TBA)</Link>
           </div>
           <div class="md:w-1/2">
             <Accordion type="single" collapsible className="w-full mt-12 mb-20">
