@@ -14,8 +14,11 @@ import { ScrollArea } from "./ui/scroll-area";
 import Image from "next/image";
 import Link from "next/link";
 import Completion from "./completion";
+import Analyze from "./analyze";
+import Categorize from "./categorize";
+import Imagen from "./imagen";
 
-export const runtime = 'edge'
+export const runtime = "edge";
 
 export default function Playground() {
   return (
@@ -23,8 +26,8 @@ export default function Playground() {
       <h1 className="text-4xl font-bold mb-6 mono-medium-h py-12">
         THE CORTEX PLAYGROUND
       </h1>
-      <div className="grid grid-cols-3 gap-6">
-        <Card className="bg-black border border-neutral-700 flex flex-col h-full">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <Card className="bg-black border border-neutral-700 flex flex-col h-full col-span-2 md:col-span-1">
           <CardHeader>
             <CardTitle>
               <div className="flex items-center">
@@ -41,7 +44,9 @@ export default function Playground() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <ScrollArea className="h-64 text-white"></ScrollArea>
+            <ScrollArea className="h-64 text-white">
+              <Categorize />
+            </ScrollArea>
           </CardContent>
           <CardFooter className="flex-grow">
             <Input
@@ -50,7 +55,7 @@ export default function Playground() {
             />
           </CardFooter>
         </Card>
-        <Card className="bg-[#000000] border border-neutral-700">
+        <Card className="bg-[#000000] border border-neutral-700 flex-col h-full col-span-2 md:col-span-1">
           <CardHeader>
             <CardTitle>
               <div className="flex items-center">
@@ -76,7 +81,7 @@ export default function Playground() {
             />
           </CardFooter>
         </Card>
-        <Card className="bg-[#000000] border border-neutral-700">
+        <Card className="bg-[#000000] border border-neutral-700 flex-col h-full col-span-2 md:col-span-1">
           <CardHeader>
             <CardTitle>
               <div className="flex items-center">
@@ -93,14 +98,8 @@ export default function Playground() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <ScrollArea className="h-64 text-white"></ScrollArea>
+            <Analyze />
           </CardContent>
-          <CardFooter className="flex-grow">
-            <Input
-              className="placeholder-neutral-800 mono-regular-h bg-black border-none text-white text-lg border-0 focus:outline-0"
-              placeholder="Upload content to be analyzed here"
-            />
-          </CardFooter>
         </Card>
         <Card className="bg-black border border-neutral-700 flex flex-col h-full col-span-2">
           <CardHeader>
@@ -118,13 +117,11 @@ export default function Playground() {
               </div>
             </CardTitle>
           </CardHeader>
-          <CardContent>
-          </CardContent>
           <CardFooter className="flex-grow w-full">
             <Completion />
           </CardFooter>
         </Card>
-        <Card className="bg-[#000000] border border-neutral-700">
+        <Card className="bg-[#000000] border border-neutral-700 flex flex-col h-full col-span-2 md:col-span-1">
           <CardHeader>
             <CardTitle>
               <div className="flex items-center">
@@ -237,7 +234,7 @@ export default function Playground() {
             </div>
           </CardFooter>
         </Card>
-        <Card className="bg-[#000000] border border-neutral-700">
+        <Card className="bg-[#000000] border border-neutral-700 flex flex-col h-full col-span-2 md:col-span-1">
           <CardHeader>
             <CardTitle>
               <div className="flex items-center">
@@ -254,16 +251,10 @@ export default function Playground() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <ScrollArea className="h-64 text-white"></ScrollArea>
+              <Imagen />
           </CardContent>
-          <CardFooter className="flex-grow">
-            <Input
-              className="placeholder-neutral-800 mono-regular-h bg-black border-none text-white text-lg border-0 focus:outline-0"
-              placeholder="Enter search query here"
-            />
-          </CardFooter>
         </Card>
-        <Card className="bg-[#000000] border border-neutral-700 col-span-2">
+        <Card className="bg-[#000000] border border-neutral-700 cflex flex-col h-full col-span-2">
           <CardHeader>
             <CardTitle>
               <div className="flex items-center">
@@ -282,12 +273,6 @@ export default function Playground() {
           <CardContent>
             <ScrollArea className="h-64 text-white"></ScrollArea>
           </CardContent>
-          <CardFooter className="flex-grow">
-            <Input
-              className="placeholder-neutral-800 mono-regular-h bg-black border-none text-white text-lg border-0 focus:outline-0"
-              placeholder="Enter text to be encrypted here"
-            />
-          </CardFooter>
         </Card>
       </div>
     </div>

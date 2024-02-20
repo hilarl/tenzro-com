@@ -43,6 +43,11 @@
 }
 
 @font-face {
+  font-family: "SF Mono Light";
+  src: url("/fonts/SF-Mono-Light.woff") format("woff2");
+}
+
+@font-face {
     font-family: "SF Mono Regular";
     src: url("/fonts/SF-Mono-Regular.woff") format("woff2");
   }
@@ -68,10 +73,54 @@ body {
   background-position: center;
 }
 
+.mono-light {
+  font-family: "SF Mono Light";
+}
+
 .mono-regular-h {
     font-family: "SF Mono Regular";
 }
 
 .mono-medium-h {
     font-family: "SF Mono Medium";
+}
+
+.accordion-item {
+  font-family: "SF Mono Regular";
+  padding-top: 32px;
+}
+
+.accordion-item svg {
+  display: none;
+}
+
+.accordion-content {
+  margin-top: 20px;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out.inactive {
+  opacity: 0;
+}
+
+.accordion-number {
+  font-size: 42px;
+  margin-right: 32px;
+}
+
+.accordion-title:hover {
+  text-decoration: none!important;
 }
