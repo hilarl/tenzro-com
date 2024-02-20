@@ -27,18 +27,18 @@ export default function Home() {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
-        <div class="grid place-items-center h-1/4 p-8 md:-p-0 md:h-1/3 mt-64 md:mt-60 w-full md:w-2/3 m-auto">
-          <h1 class="text-4xl md:text-6xl text-center text-white mono-medium-h">Build smarter, safer web3 applications</h1>
+        <div class="grid place-items-center h-1/4 p-8 md:-p-0 md:h-1/3 mt-40 md:mt-60 w-full md:w-2/3 m-auto">
+          <h1 class="text-3xl md:text-6xl text-center text-white mono-medium-h">Build smarter, safer web3 applications</h1>
           <h3 class="text-sm md:text-md md:text-xl mt-6 md:mt-8 text-center text-white mono-medium-h md:px-14">Our novel digital infrastructure injects artificial intelligence and encryption into the blockchain, enabling developers to build web3 applications that are intelligent and secure.</h3>
         </div>
       </section>
       <div className='px-6 md:px-12 mt-20'>
         <div className="md:flex md:h-72">
           <div className="w-full md:w-3/4">
-            <h1 className="mono-regular-h text-2xl md:text-3xl">Combining decentralization, intelligence, scalability, and privacy, while incentivizing participation.</h1>
+            <h1 className="mono-regular-h text-2xl md:text-3xl text-center md:text-left">Combining decentralization, intelligence, scalability, and privacy, while incentivizing participation.</h1>
           </div>
           <div className="w-full md:w-full">
-            <p className="mono-regular-h mt-8 md:mt-0 md:pl-14 text-lg">Tenzro combines Machine Learning, Artificial Intelligence, and Encryption, seamlessly within its Blockchain ecosystem.</p>
+            <p className="mono-regular-h mt-8 md:mt-0 md:pl-14 text-lg text-center md:text-left">Tenzro combines Machine Learning, Artificial Intelligence, and Encryption, seamlessly within its Blockchain ecosystem.</p>
           </div>
         </div>
       </div>
@@ -54,11 +54,11 @@ export default function Home() {
               <AccordionItem value="item-1" className="accordion-item w-full text-left">
                 <div class="pb-8">
                   <AccordionTrigger className="accordion-title">
-                    <span className='text-2xl md:text-3xl'><span className="text-3xl md:text-4xl mr-4 text-neutral-300">1</span>Built-in ML & AI</span>
+                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300">1</span>Built-in ML & AI</span>
                   </AccordionTrigger>
                   <AccordionContent className="accordion-content mono-light leading-relaxed">
                     <motion.div
-                      className="accordion-content text-lg"
+                      className="accordion-content text-md md:text-lg"
                       key="modal"
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
@@ -72,11 +72,11 @@ export default function Home() {
               <AccordionItem value="item-2" className="accordion-item w-full text-left">
                 <div class="pb-8">
                   <AccordionTrigger className="accordion-title">
-                    <span className='text-2xl md:text-3xl'><span className="text-3xl md:text-4xl mr-4 text-neutral-300 ">2</span>Privacy controls</span>
+                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">2</span>Privacy controls</span>
                   </AccordionTrigger>
                   <AccordionContent className="accordion-content mono-light leading-relaxed">
                     <motion.div
-                      className="accordion-content text-lg"
+                      className="accordion-content text-md md:text-lg"
                       key="modal"
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
@@ -90,11 +90,11 @@ export default function Home() {
               <AccordionItem value="item-3" className="accordion-item w-full text-left">
                 <div class="pb-8">
                   <AccordionTrigger className="accordion-title">
-                    <span className='text-2xl md:text-3xl'><span className="text-3xl md:text-4xl mr-4 text-neutral-300 ">3</span>Scalable & fast</span>
+                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">3</span>Scalable & fast</span>
                   </AccordionTrigger>
                   <AccordionContent className="accordion-content mono-light leading-relaxed">
                     <motion.div
-                      className="accordion-content text-lg"
+                      className="accordion-content text-md md:text-lg"
                       key="modal"
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
@@ -108,11 +108,11 @@ export default function Home() {
               <AccordionItem value="item-4" className="accordion-item w-full text-left">
                 <div class="pb-8">
                   <AccordionTrigger className="accordion-title">
-                    <span className='text-2xl md:text-3xl'><span className="text-3xl md:text-4xl mr-4 text-neutral-300 ">4</span>Truly decentralized</span>
+                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">4</span>Truly decentralized</span>
                   </AccordionTrigger>
                   <AccordionContent className="accordion-content mono-light leading-relaxed">
                     <motion.div
-                      className="accordion-content text-lg"
+                      className="accordion-content text-md md:text-lg"
                       key="modal"
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
@@ -126,11 +126,11 @@ export default function Home() {
               <AccordionItem value="item-5" className="accordion-item w-full text-left">
                 <div class="pb-8">
                   <AccordionTrigger className="accordion-title text-left">
-                    <span className='text-2xl md:text-3xl'><span className="text-3xl md:text-4xl mr-4 text-neutral-300 ">5</span>Incentivized economy</span>
+                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">5</span>Incentivized economy</span>
                   </AccordionTrigger>
                   <AccordionContent className="accordion-content mono-light leading-relaxed">
                     <motion.div
-                      className="accordion-content text-lg"
+                      className="accordion-content text-md md:text-lg"
                       key="modal"
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
@@ -151,27 +151,27 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 md:p-12 mono-medium-h">
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-2xl mb-4">Cortex</h1>
+            <h1 className="text-xl md:text-2xl mb-4">Cortex</h1>
             <p className="text-sm mono-light leading-relaxed">The central intelligence hub that powers all AI functionalities of Tenzro, seamlessly integrating with its blockchain ecosystem.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-2xl mb-4">Radar</h1>
+            <h1 className="text-xl md:text-2xl mb-4">Radar</h1>
             <p className="text-sm mono-light leading-relaxed">Personalized content recommendations suggest assets tailored to your risk tolerance and investment goals, guiding you towards informed decisions.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-2xl mb-4">Insights</h1>
+            <h1 className="text-xl md:text-2xl mb-4">Insights</h1>
             <p className="text-sm mono-light leading-relaxed">Real-time trend and reputation tracking analyzes social media buzz, market fluctuations, and community sentiment to identify rising stars and potential pitfalls.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-2xl mb-4">Lens</h1>
+            <h1 className="text-xl md:text-2xl mb-4">Lens</h1>
             <p className="text-sm mono-light leading-relaxed">AI-powered content analysis extracts information from text, images, and audio, to reveal deeper meaning and relationships behind each digital asset.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-2xl mb-4">Create</h1>
+            <h1 className="text-xl md:text-2xl mb-4">Create</h1>
             <p className="text-sm mono-light leading-relaxed">Enables creation of diverse creative content using Generative AI.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-2xl mb-4">Oracle</h1>
+            <h1 className="text-xl md:text-2xl mb-4">Oracle</h1>
             <p className="text-sm mono-light leading-relaxed">A conversational AI search assistant that can be trained with custom data to answer questions or be a guide to help discover digital assets.</p>
           </div>
         </div>
@@ -182,15 +182,15 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 md:p-12 mono-medium-h">
             <div className="border border-neutral-200 rounded-lg p-8">
-              <h1 className="text-2xl mb-4"><span className="text-neutral-300">Token</span> X</h1>
+              <h1 className="text-xl md:text-2xl mb-4"><span className="text-neutral-300">Token</span> X</h1>
               <p className="text-sm mono-light leading-relaxed">The utility token that serves as the means to pay for services on the platform. </p>
             </div>
             <div className="border border-neutral-200 rounded-lg p-8">
-              <h1 className="text-2xl mb-4"><span className="text-neutral-300">Token</span> Y</h1>
+              <h1 className="text-xl md:text-2xl mb-4"><span className="text-neutral-300">Token</span> Y</h1>
               <p className="text-sm mono-light leading-relaxed">The governance token that is used for submitting proposals to the Tenzro DAO and participating in the voting process.</p>
             </div>
             <div className="border border-neutral-200 rounded-lg p-8">
-              <h1 className="text-2xl mb-4"><span className="text-neutral-300">Token</span> Z</h1>
+              <h1 className="text-xl md:text-2xl mb-4"><span className="text-neutral-300">Token</span> Z</h1>
               <p className="text-sm mono-light leading-relaxed">The reputation token that rewards creators for their contributions to the ecosystem through content creation and data provision, crucial elements in training the Tenzro AI.</p>
             </div>
           </div>
