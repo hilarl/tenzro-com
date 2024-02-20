@@ -27,7 +27,7 @@ export default function Home() {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
-        <div class="grid place-items-center h-1/4 p-8 md:-p-0 md:h-1/3 mt-60 md:mt-60 w-full md:w-2/3 m-auto">
+        <div class="grid place-items-center h-1/4 p-8 md:-p-0 md:h-1/3 mt-48 md:mt-60 w-full md:w-2/3 m-auto">
           <h1 class="text-3xl md:text-6xl text-center text-white mono-medium-h">Build smarter, safer web3 applications</h1>
           <h3 class="text-sm md:text-md md:text-xl mt-6 md:mt-8 text-center text-white mono-medium-h md:px-14">Our novel digital infrastructure injects artificial intelligence and encryption into the blockchain, enabling developers to build web3 applications that are intelligent and secure.</h3>
         </div>
