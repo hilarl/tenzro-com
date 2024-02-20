@@ -30,21 +30,12 @@ export default function index() {
           }}
           className={styles.el}
         >
+          <div className="py-2">
           <div
             className={`${styles.burger} ${
               isActive ? styles.burgerActive : ""
             }`}
           ></div>
-          <div className={styles.label}>
-            <motion.p
-              variants={opacity}
-              animate={!isActive ? "open" : "closed"}
-            >
-              Menu
-            </motion.p>
-            <motion.p variants={opacity} animate={isActive ? "open" : "closed"}>
-              Close
-            </motion.p>
           </div>
         </div>
         <motion.div
