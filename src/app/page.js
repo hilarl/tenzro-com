@@ -147,7 +147,7 @@ export default function Home() {
       </div>
       <div id="solutions">
         <div className="px-6 md:px-12 pt-4 mono-medium-h text-center">
-          <h1 className="text-2xl">SOLUTION</h1>
+          <h1 className="text-2xl">SOLUTIONS</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 md:p-12 mono-medium-h">
           <div className="border border-neutral-200 rounded-lg p-8">
