@@ -18,10 +18,9 @@ export default function index() {
           <Image
             src="/logo.svg"
             alt="Tenzro"
-            width={90} // Replace with your desired width
-            height={10} // Replace with your desired height
+            width={100} // Replace with your desired width
+            height={12} // Replace with your desired height
             priority // Load the logo quickly
-            className="mt-1"
           />
         </Link>
         <div
