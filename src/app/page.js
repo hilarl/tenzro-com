@@ -28,12 +28,12 @@ export default function Home() {
         backgroundPosition: "center",
       }}>
         <div class="grid place-items-center h-1/4 p-8 md:-p-0 md:h-1/3 mt-64 md:mt-60 w-full md:w-2/3 m-auto">
-          <h1 class="text-5xl md:text-6xl text-center text-white mono-medium-h">Build smarter, safer web3 applications</h1>
-          <h3 class="text-md md:text-xl mt-6 md:mt-8 text-center text-white mono-medium-h px-14">Our novel digital infrastructure injects artificial intelligence and encryption into the blockchain, enabling developers to build web3 applications that are intelligent and secure.</h3>
+          <h1 class="text-4xl md:text-6xl text-center text-white mono-medium-h">Build smarter, safer web3 applications</h1>
+          <h3 class="text-sm md:text-md md:text-xl mt-6 md:mt-8 text-center text-white mono-medium-h md:px-14">Our novel digital infrastructure injects artificial intelligence and encryption into the blockchain, enabling developers to build web3 applications that are intelligent and secure.</h3>
         </div>
       </section>
       <div className='px-6 md:px-12 mt-20'>
-        <div className="md:flex h-72">
+        <div className="md:flex md:h-72">
           <div className="w-full md:w-3/4">
             <h1 className="mono-regular-h text-2xl md:text-3xl">Combining decentralization, intelligence, scalability, and privacy, while incentivizing participation.</h1>
           </div>
@@ -45,7 +45,7 @@ export default function Home() {
       <div class='min-h-screen px-6 md:px-12' id="discover">
         <div class="md:flex">
           <div class="p-8 w-full md:w-1/2 border border-neutral-200 rounded-lg text-black md:h-64 mt-20 mr-20 mono-regular-h">
-            <h1 className="text-3xl mb-4">Whats possible with Tenzro</h1>
+            <h1 className="text-2xl md:text-3xl mb-4">Whats possible with Tenzro</h1>
             <p className="mb-24 text-md text-neutral-400 mono-light">Build AI-powered apps on Tenzro with our ML tools.</p>
             <Link className="font-bold" href="#">TRY THE CORTEX PLAYGROUND (TBA)</Link>
           </div>
@@ -108,7 +108,7 @@ export default function Home() {
               <AccordionItem value="item-4" className="accordion-item w-full text-left">
                 <div class="pb-8">
                   <AccordionTrigger className="accordion-title">
-                    <span className='text-2xl md:text-3xl'><span className="text-3xl md:text-4xl mr-4 text-neutral-300 ">4</span>Decentralized governance</span>
+                    <span className='text-2xl md:text-3xl'><span className="text-3xl md:text-4xl mr-4 text-neutral-300 ">4</span>Truly decentralized</span>
                   </AccordionTrigger>
                   <AccordionContent className="accordion-content mono-light leading-relaxed">
                     <motion.div
