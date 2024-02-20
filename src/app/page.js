@@ -147,7 +147,7 @@ export default function Home() {
       </div>
       <div id="solutions">
         <div className="px-6 md:px-12 pt-4 mono-medium-h text-center">
-          <h1 className="text-2xl">Solutions</h1>
+          <h1 className="text-2xl">SOLUTION</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 md:p-12 mono-medium-h">
           <div className="border border-neutral-200 rounded-lg p-8">
@@ -178,7 +178,7 @@ export default function Home() {
 
         <div id="tokenomics">
           <div className="px-6 md:px-12 pt-4 mono-medium-h text-center mt-24">
-            <h1 className="text-2xl">Tokenomics</h1>
+            <h1 className="text-2xl">TOKENOMICS</h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 md:p-12 mono-medium-h">
             <div className="border border-neutral-200 rounded-lg p-8">
@@ -198,7 +198,7 @@ export default function Home() {
 
         <div id="governance">
           <div className="px-6 md:px-12 pt-4 mono-medium-h text-center mt-24">
-            <h1 className="text-2xl">Governance</h1>
+            <h1 className="text-2xl">GOVERNANCE</h1>
           </div>
           <div className="grid gap-4 p-6 md:p-12 mono-medium-h text-center">
               <p className="text-md md:text-xl mono-light leading-relaxed md:w-2/3 mx-auto">Tenzro maintains true decentralization through its innovative three-token system, separating governance, utility, and incentivization functions to remain aligned with its core vision. </p>
