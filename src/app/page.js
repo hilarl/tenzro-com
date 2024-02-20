@@ -27,9 +27,9 @@ export default function Home() {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
-        <div class="grid place-items-center h-1/4 p-8 md:-p-0 md:h-1/3 mt-48 md:mt-60 w-full md:w-2/3 m-auto">
+        <div class="grid place-items-center h-1/4 p-8 md:-p-0 md:h-1/3 mt-52 md:mt-60 w-full md:w-2/3 m-auto">
           <h1 class="text-3xl md:text-6xl text-center text-white mono-medium-h">Build smarter, safer web3 applications</h1>
-          <h3 class="text-sm md:text-md md:text-xl mt-6 md:mt-8 text-center text-white mono-medium-h md:px-14">Our novel digital infrastructure injects artificial intelligence and encryption into the blockchain, enabling developers to build web3 applications that are intelligent and secure.</h3>
+          <h3 class="text-sm md:text-md md:text-xl mt-6 md:mt-8 text-center text-white mono-light md:px-14">Our novel digital infrastructure injects artificial intelligence and encryption into the blockchain, enabling developers to build web3 applications that are intelligent and secure.</h3>
         </div>
       </section>
       <div className='px-6 md:px-12 mt-20'>
@@ -46,7 +46,7 @@ export default function Home() {
         <div class="md:flex">
           <div class="p-8 w-full md:w-1/2 border border-neutral-200 rounded-lg text-black h-auto md:h-72 mt-20 mr-20 mono-regular-h">
             <h1 className="text-xl md:text-3xl mb-4">Whats possible with Tenzro</h1>
-            <p className="mb-24 text-sm md:text-lg text-neutral-400 mono-light">Build AI-powered apps on Tenzro with our ML tools.</p>
+            <p className="mb-24 text-sm md:text-base text-neutral-400 mono-light">Build AI-powered apps on Tenzro with our ML tools.</p>
             <Link className="text-sm md:text-base font-bold" href="#">TRY THE CORTEX PLAYGROUND (TBA)</Link>
           </div>
           <div class="md:w-1/2">

@@ -9,24 +9,8 @@ import Image from './Image';
 
 const links = [
   {
-    title: "Discover",
-    href: "#discover",
-    // src: "home.png"
-  },
-  {
-    title: "Solutions",
-    href: "#solutions",
-    // src: "home.png"
-  },
-  {
-    title: "Tokenomics",
-    href: "#tokenomics",
-    // src: "home.png"
-  },
-  ,
-  {
-    title: "Governance",
-    href: "#governance",
+    title: "",
+    href: "/",
     // src: "home.png"
   },
 ]
