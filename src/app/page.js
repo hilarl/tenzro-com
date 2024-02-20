@@ -47,7 +47,7 @@ export default function Home() {
           <div class="p-8 w-full md:w-1/2 border border-neutral-200 rounded-lg text-black h-auto md:h-72 mt-20 mr-20 mono-regular-h">
             <h1 className="text-xl md:text-3xl mb-4">Whats possible with Tenzro</h1>
             <p className="mb-24 text-sm md:text-lg text-neutral-400 mono-light">Build AI-powered apps on Tenzro with our ML tools.</p>
-            <Link className="text-sm md:text-md font-bold" href="#">TRY THE CORTEX PLAYGROUND (TBA)</Link>
+            <Link className="text-sm md:text-base font-bold" href="#">TRY THE CORTEX PLAYGROUND (TBA)</Link>
           </div>
           <div class="md:w-1/2">
             <Accordion type="single" collapsible className="w-full mt-12 mb-20">
@@ -152,27 +152,27 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 md:p-12 mono-medium-h">
           <div className="border border-neutral-200 rounded-lg p-8">
             <h1 className="text-xl md:text-2xl mb-4">Cortex</h1>
-            <p className="text-sm mono-light leading-relaxed">The central intelligence hub that powers all AI functionalities of Tenzro, seamlessly integrating with its blockchain ecosystem.</p>
+            <p className="text-sm md:text-base mono-light leading-relaxed">The central intelligence hub that powers all AI functionalities of Tenzro, seamlessly integrating with its blockchain ecosystem.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
             <h1 className="text-xl md:text-2xl mb-4">Radar</h1>
-            <p className="text-sm mono-light leading-relaxed">Personalized content recommendations suggest assets tailored to your risk tolerance and investment goals, guiding you towards informed decisions.</p>
+            <p className="text-sm md:text-base mono-light leading-relaxed">Personalized content recommendations suggest assets tailored to your risk tolerance and investment goals, guiding you towards informed decisions.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
             <h1 className="text-xl md:text-2xl mb-4">Insights</h1>
-            <p className="text-sm mono-light leading-relaxed">Real-time trend and reputation tracking analyzes social media buzz, market fluctuations, and community sentiment to identify rising stars and potential pitfalls.</p>
+            <p className="text-sm md:text-base mono-light leading-relaxed">Real-time trend and reputation tracking analyzes social media buzz, market fluctuations, and community sentiment to identify rising stars and potential pitfalls.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
             <h1 className="text-xl md:text-2xl mb-4">Lens</h1>
-            <p className="text-sm mono-light leading-relaxed">AI-powered content analysis extracts information from text, images, and audio, to reveal deeper meaning and relationships behind each digital asset.</p>
+            <p className="text-sm md:text-base mono-light leading-relaxed">AI-powered content analysis extracts information from text, images, and audio, to reveal deeper meaning and relationships behind digital assets in the Tenzro ecosystem.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
             <h1 className="text-xl md:text-2xl mb-4">Create</h1>
-            <p className="text-sm mono-light leading-relaxed">Enables creation of diverse creative content using Generative AI.</p>
+            <p className="text-sm md:text-base mono-light leading-relaxed">Enables creation of diverse creative content using Generative AI.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
             <h1 className="text-xl md:text-2xl mb-4">Oracle</h1>
-            <p className="text-sm mono-light leading-relaxed">A conversational AI search assistant that can be trained with custom data to answer questions or be a guide to help discover digital assets.</p>
+            <p className="text-sm md:text-base mono-light leading-relaxed">A conversational AI search assistant that can be trained with custom data to answer questions or be a guide to help discover digital assets.</p>
           </div>
         </div>
 
@@ -183,15 +183,15 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 md:p-12 mono-medium-h">
             <div className="border border-neutral-200 rounded-lg p-8">
               <h1 className="text-xl md:text-2xl mb-4"><span className="text-neutral-300">Token</span> X</h1>
-              <p className="text-sm mono-light leading-relaxed">The utility token that serves as the means to pay for services on the platform. </p>
+              <p className="text-sm md:text-base mono-light leading-relaxed">The utility token that serves as the means to pay for services on the platform. </p>
             </div>
             <div className="border border-neutral-200 rounded-lg p-8">
               <h1 className="text-xl md:text-2xl mb-4"><span className="text-neutral-300">Token</span> Y</h1>
-              <p className="text-sm mono-light leading-relaxed">The governance token that is used for submitting proposals to the Tenzro DAO and participating in the voting process.</p>
+              <p className="text-sm md:text-base mono-light leading-relaxed">The governance token that is used for submitting proposals to the Tenzro DAO and participating in the voting process.</p>
             </div>
             <div className="border border-neutral-200 rounded-lg p-8">
               <h1 className="text-xl md:text-2xl mb-4"><span className="text-neutral-300">Token</span> Z</h1>
-              <p className="text-sm mono-light leading-relaxed">The reputation token that rewards creators for their contributions to the ecosystem through content creation and data provision, crucial elements in training the Tenzro AI.</p>
+              <p className="text-sm md:text-base mono-light leading-relaxed">The reputation token that rewards creators for their contributions to the ecosystem through content creation and data provision, crucial elements in training the Tenzro AI.</p>
             </div>
           </div>
         </div>
