@@ -1,6 +1,7 @@
 import styles from './style.module.scss';
 import { translate } from '../../anim';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Footer() {
     return (
@@ -13,11 +14,11 @@ export default function Footer() {
                     exit="exit">
                     <span className='text-neutral-600 text-lg'>Social</span>
                     <ul className='ml-4'>
-                        <li>X</li>
-                        <li>LinkedIn</li>
+                        <li><Link href="https://x.com/tenzr0">X</Link></li>
+                        <li><Link href="https://linkedin.com/company/tenzro">LinkedIn</Link></li>
+                        <li><Link href="https://medium.com/tenzro">Medium</Link></li>
                         <li>YouTube</li>
                         <li>Telegram</li>
-                        <li>Medium</li>
                     </ul>
                 </motion.li>
             </ul>
