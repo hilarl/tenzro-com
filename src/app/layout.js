@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
               <li><Link href="mailto:team@tenzro.com">Email</Link></li>
             </ul>
           </div>
-          <p className="md:text-right md:w-1/2 w-full">©2024 TENZRO, ALL RIGHTS RESERVED.</p>
+          <p className="md:text-right md:w-1/2 w-full text-sm">©2024 TENZRO, ALL RIGHTS RESERVED.</p>
         </div>
       </body>
     </html>
