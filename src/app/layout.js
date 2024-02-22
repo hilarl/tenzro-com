@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <div>
       <Head>
         {/* Meta tags for SEO */}
         <title>Tenzro</title>
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:image" content="https://tenzro.com/twitter-card.png" />
 
       </Head>
-      <body>
+      <div>
         <Header />
         {children}
         <div className='text-neutral-400 md:text-base text-base text-center md:text-right pt-16 pb-24 md:p-12 mono-light mt-12 md:mt-24 w-full md:flex md:justify-between'>
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
           </div>
           <p className="md:text-right md:w-1/2 w-full text-sm">©2024 TENZRO</p>
         </div>
-      </body>
-    </html>
+      </div>
+    </div>
   )
 }
