@@ -9,8 +9,8 @@ import Image from './Image';
 
 const links = [
   {
-    title: "",
-    href: "/",
+    title: "Blog",
+    href: "https://medium.com/tenzro",
     // src: "home.png"
   },
 ]

@@ -20,11 +20,11 @@ export default function RootLayout({ children }) {
         {children}
         <div className='text-neutral-400 md:text-base text-base text-center md:text-right pt-16 pb-24 md:p-12 mono-light mt-12 md:mt-24 w-full md:flex md:justify-between'>
           <div className="md:text-left md:w-1/2 w-full">
-            <ul className="flex flex-wrap md:justify-start justify-center mb-6 md:mb-0">
-              <li className="mr-6"><Link href="https://x.com/tenzr0">X</Link></li>
-              <li className="mr-6"><Link href="https://linkedin.com/company/tenzro">LinkedIn</Link></li>
-              <li className="mr-6"><Link href="https://medium.com/tenzro">Medium</Link></li>
-              <li className="mr-6"><Link href="https://t.me/+VvTmMD4Z6QBlM2Jk">Telegram</Link></li>
+            <ul className="flex flex-wrap md:justify-start justify-center mb-12 md:mb-0">
+              <li className="mr-4"><Link href="https://x.com/tenzr0">X</Link></li>
+              <li className="mr-4"><Link href="https://linkedin.com/company/tenzro">LinkedIn</Link></li>
+              <li className="mr-4"><Link href="https://medium.com/tenzro">Medium</Link></li>
+              <li className="mr-4"><Link href="https://t.me/+VvTmMD4Z6QBlM2Jk">Telegram</Link></li>
               <li><Link href="mailto:team@tenzro.com">Email</Link></li>
             </ul>
           </div>
