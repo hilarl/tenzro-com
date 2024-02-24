@@ -25,7 +25,7 @@ const UploadImageComponent = () => {
 
     try {
       setLoading(true); // Set loading to true when analysis starts
-      const response = await fetch("http://127.0.0.1:5000/analyze", {
+      const response = await fetch("https://praecise-mvp-hoewrpyxlq-ew.a.run.app/analyze", {
         method: "POST",
         body: formData,
       });
