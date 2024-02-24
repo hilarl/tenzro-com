@@ -19,25 +19,31 @@ const UploadImageComponent = () => {
     setImagePreview(URL.createObjectURL(selectedFile));
   };
 
+  const API_KEY = process.env.PRAECISE_API_KEY;
+
   const handleSubmit = async () => {
     const formData = new FormData();
     formData.append("file", file);
-
+  
     try {
       setLoading(true); // Set loading to true when analysis starts
-      const response = await fetch("https://praecise-mvp-hoewrpyxlq-ew.a.run.app/analyze", {
+      const response = await fetch("http://localhost:8080/analyze", {
         method: "POST",
         body: formData,
+        headers: {
+          Authorization: `${API_KEY}`,
+        },
       });
-
+  
       if (response.ok) {
         const data = await response.json();
         setAnalysisResult(data.result); // Set the analysis result
       } else {
-        setError("Failed to upload image");
+        const errorMessage = await response.text(); // Get the error message from the server
+        setError(`${errorMessage}`);
       }
     } catch (error) {
-      setError("Error uploading image");
+      setError(`Error uploading image: ${error.message}`); // Log the error message thrown during the fetch request
       console.error("Error uploading image:", error);
     } finally {
       setLoading(false); // Set loading to false when analysis finishes

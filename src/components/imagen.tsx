@@ -8,16 +8,16 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API_KEY = "1234";
+  const API_KEY = process.env.PRAECISE_API_KEY;
 
   const handleGenerateImage = async () => {
     setLoading(true);
     try {
-      const response = await fetch("https://praecise-mvp-hoewrpyxlq-ew.a.run.app/generate-image", {
+      const response = await fetch("http://localhost:8080/generate-image", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${API_KEY}`,
+          Authorization: `${API_KEY}`,
         },
         body: JSON.stringify({ prompt }),
       });
