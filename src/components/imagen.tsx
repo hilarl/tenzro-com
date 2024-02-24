@@ -9,11 +9,12 @@ export default function Home() {
   const [error, setError] = useState("");
 
   const API_KEY = process.env.PRAECISE_API_KEY;
+  const API_URL = process.env.API_URL
 
   const handleGenerateImage = async () => {
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:8080/generate-image", {
+      const response = await fetch(`${API_URL}/generate-image`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

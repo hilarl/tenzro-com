@@ -20,6 +20,7 @@ const UploadImageComponent = () => {
   };
 
   const API_KEY = process.env.PRAECISE_API_KEY;
+  const API_URL = process.env.API_URL;
 
   const handleSubmit = async () => {
     const formData = new FormData();
@@ -27,7 +28,7 @@ const UploadImageComponent = () => {
   
     try {
       setLoading(true); // Set loading to true when analysis starts
-      const response = await fetch("http://localhost:8080/analyze", {
+      const response = await fetch(`${API_URL}/analyze`, {
         method: "POST",
         body: formData,
         headers: {
