@@ -184,11 +184,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 md:p-12 mono-medium-h">
             <div className="border border-neutral-200 rounded-lg p-8">
               <h1 className="text-xl md:text-2xl mb-4"><span className="text-neutral-300">Token</span> X</h1>
-              <p className="text-sm md:text-base mono-light leading-relaxed">The utility token that serves as the means to pay for services on the platform. </p>
+              <p className="text-sm md:text-base mono-light leading-relaxed">The governance token that is used for submitting proposals to the Tenzro DAO and participating in the voting process. </p>
             </div>
             <div className="border border-neutral-200 rounded-lg p-8">
               <h1 className="text-xl md:text-2xl mb-4"><span className="text-neutral-300">Token</span> Y</h1>
-              <p className="text-sm md:text-base mono-light leading-relaxed">The governance token that is used for submitting proposals to the Tenzro DAO and participating in the voting process.</p>
+              <p className="text-sm md:text-base mono-light leading-relaxed">The utility token that serves as the means to pay for services on the platform.</p>
             </div>
             <div className="border border-neutral-200 rounded-lg p-8">
               <h1 className="text-xl md:text-2xl mb-4"><span className="text-neutral-300">Token</span> Z</h1>
