@@ -13,6 +13,11 @@ const links = [
     href: "https://medium.com/tenzro",
     // src: "home.png"
   },
+  {
+    title: "Documentation",
+    href: "https://docs.tenzro.com",
+    // src: "home.png"
+  },
 ]
 
 export default function Index() {

@@ -19,7 +19,7 @@ const UploadImageComponent = () => {
     setImagePreview(URL.createObjectURL(selectedFile));
   };
 
-  const API_KEY = process.env.PRAECISE_API_KEY;
+  const API_KEY = 'f1eab1a83e0f74247e8f4b7de385589e7c27550fcf562ebf47f0e8c0f3fc0e33';
   const API_URL = process.env.API_URL;
 
   const handleSubmit = async () => {
@@ -28,7 +28,7 @@ const UploadImageComponent = () => {
   
     try {
       setLoading(true); // Set loading to true when analysis starts
-      const response = await fetch(`${API_URL}/analyze`, {
+      const response = await fetch("http://localhost:8080/analyze", {
         method: "POST",
         body: formData,
         headers: {
