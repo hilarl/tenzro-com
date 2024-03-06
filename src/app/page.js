@@ -24,7 +24,8 @@ export default function Home() {
         height: "100vh",
         overflow: "hidden",
         position: "relative",
-      }}>
+        
+      }} className="bg-black">
         <video autoplay muted loop playsinline style={{
           position: "absolute",
           width: "100%",

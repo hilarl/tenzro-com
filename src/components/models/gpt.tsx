@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function gemini() {{
     return (
         <div>
-                    <h1 className='mono-medium-h text-2xl md:text-3xl mt-6 mb-2 md:my-12 ml-6 md:ml-0'>GPT</h1>
+                    <h1 className='mono-medium-h text-2xl md:text-3xl mt-6 mb-2 md:my-12 ml-6 md:ml-0'>OpenAI</h1>
                     <Tabs.Root defaultValue="tab1" className='md:p-0 p-6 mb-8 md:mb-16'>
                         <Tabs.List className='mono-medium-h pl-4'>
                             <Tabs.Trigger className="text-sm md:text-base TabsTrigger p-4" value="tab1">
@@ -46,7 +46,7 @@ const text = tenzro.text({
                                         __html: `
 <pre class="md:ml-10 whitespace-pre-wrap break-words code-sample text-sm md:text-base" style="letter-spacing: -0.5px; line-height: 2;">
 const embeddings = tenzro.embeddings({
-    model: <span style="color: #B3D238;">"gpt"</span>,
+    model: <span style="color: #B3D238;">"text-embedding-3-small"</span>,
     input: <span style="color: #B3D238;">"The quick brown fox jumps over the lazy dog."</span>
 });
 </pre>
