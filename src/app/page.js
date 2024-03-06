@@ -9,7 +9,6 @@ import {
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Home() {
 
@@ -24,15 +23,25 @@ export default function Home() {
       <section style={{
         height: "100vh",
         overflow: "hidden",
-        backgroundImage: `url(/bg0.jpeg)`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        position: "relative",
       }}>
+        <video autoplay muted loop playsinline style={{
+          position: "absolute",
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          zIndex: "-1",
+        }}>
+          <source src="/tenzro-ball-720.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div class="grid place-items-center h-1/4 p-8 md:-p-0 md:h-1/3 mt-52 md:mt-60 w-full md:w-2/3 m-auto">
           <h1 class="text-3xl md:text-6xl text-center text-white mono-medium-h">Build smarter, safer web3 applications</h1>
           <h3 class="text-sm md:text-md md:text-xl mt-6 md:mt-8 text-center text-white mono-light md:px-14">Our novel digital infrastructure injects artificial intelligence and encryption into the blockchain, enabling developers to build web3 applications that are intelligent and secure.</h3>
         </div>
       </section>
+
+
       <div className='px-6 md:px-12 mt-20'>
         <div className="md:flex py-12 md:py-0 md:h-72">
           <div className="w-full md:w-3/4">
@@ -202,7 +211,7 @@ export default function Home() {
             <h1 className="text-2xl">GOVERNANCE</h1>
           </div>
           <div className="grid gap-4 p-6 md:p-12 mono-medium-h text-center">
-              <p className="text-md md:text-xl mono-light leading-relaxed md:w-2/3 mx-auto">Tenzro maintains true decentralization through its innovative three-token system, separating governance, utility, and incentivization functions to remain aligned with its core vision. </p>
+            <p className="text-md md:text-xl mono-light leading-relaxed md:w-2/3 mx-auto">Tenzro maintains true decentralization through its innovative three-token system, separating governance, utility, and incentivization functions to remain aligned with its core vision. </p>
           </div>
         </div>
       </div>

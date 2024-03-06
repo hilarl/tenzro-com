@@ -119,3 +119,24 @@ body {
 .accordion-title:hover {
   text-decoration: none!important;
 }
+
+.code-sample {
+  font-family: "SF Mono Light";
+}
+
+.TabsTrigger[data-state='active'] {
+  color: var(--violet-11);
+  box-shadow: inset 0 -1px 0 0 currentColor, 0 1px 0 0 currentColor;
+}
+
+.tenzro-blue {
+  color: #9DC2C0;
+}
+
+.tenzro-purple {
+  color: #978AAD;
+}
+
+.tenzro-orange {
+  color: #FF6A3B;
+}

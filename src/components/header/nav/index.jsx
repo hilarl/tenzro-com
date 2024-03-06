@@ -9,12 +9,16 @@ import Image from './Image';
 
 const links = [
   {
+    title: "Developers",
+    href: "https://devs.tenzro.com",
+  },
+  {
     title: "Blog",
     href: "https://medium.com/tenzro",
     // src: "home.png"
   },
   {
-    title: "Documentation",
+    title: "Learn",
     href: "https://docs.tenzro.com",
     // src: "home.png"
   },
