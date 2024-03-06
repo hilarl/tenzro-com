@@ -21,7 +21,7 @@ export default function Developers() {
                 </div>
                 <div className="md:flex justify-between p-6 md:p-0">
                     <div className="md:w-1/3">
-                        <h2 className="pr-12 mb-6 md:mb-12 text-xl mono-regular-h">Developers can start building with a just simple API call.</h2>
+                        <h2 className="pr-12 mb-6 md:mb-12 text-xl mono-regular-h">Developers can start building with just a simple API call.</h2>
                         <p className='mono-regular-h text-sm pr-10 md:mb-0 mb-24'>Tenzro leverages vector embeddings to represent the unique characteristics of each Digital Asset in a format understood by AI models. These act as unique digital fingerprints, capturing the context of an NFT or token in a format readily accessible by AI models.</p>
                     </div>
                     <div className="md:w-2/3">
