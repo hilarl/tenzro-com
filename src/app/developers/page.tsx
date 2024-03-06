@@ -16,7 +16,7 @@ export default function Developers() {
                         <h1 className="mono-regular-h font-medium text-4xl md:text-6xl leading-tight md:leading-tight tracking-tight">Enhancing Digital Assets with AI</h1>
                     </div>
                     <div className="md:w-1/2">
-                        <p className="md:mt-0 mt-6 md:pl-12 text-base md:text-lg mono-regular-h">Our API and SDK empower developers to create applications with unprecedented levels of sophistication and intelligence, with  access to the most cutting-edge AI models available today.</p>
+                        <p className="md:mt-0 mt-6 md:pl-12 text-base md:text-lg mono-regular-h">Our API and SDK empowers developers to create applications with unprecedented levels of sophistication and intelligence, with  access to the most cutting-edge AI models available today.</p>
                     </div>
                 </div>
                 <div className="md:flex justify-between p-6 md:p-0">
