@@ -10,7 +10,7 @@ import Image from './Image';
 const links = [
   {
     title: "Developers",
-    href: "https://devs.tenzro.com",
+    href: "https://dev.tenzro.com",
   },
   {
     title: "Blog",
