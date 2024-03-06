@@ -39,7 +39,7 @@ export default function Developers() {
                                     <div dangerouslySetInnerHTML={{
                                         __html: `                                        
 <pre class="code-sample whitespace-pre-wrap break-words text-sm md:text-base" style="letter-spacing: -0.5px; line-height: 1.6;">
-asset = DigitalAsset.create(
+asset = tenzro.create_asset(
     model=<span style="color: #B3D238;">"gemini"</span>,
     asset=[
         {
@@ -69,7 +69,7 @@ asset = DigitalAsset.create(
                                     <div dangerouslySetInnerHTML={{
                                         __html: `
 <pre class="code-sample whitespace-pre-wrap break-words text-sm md:text-base" style="letter-spacing: -0.5px; line-height: 1.6;">
-const asset = tenzro.DigitalAsset.create({
+const asset = tenzro.Asset.create({
     model: <span style="color: #B3D238;">"gemini"</span>,
     asset: [
         {
