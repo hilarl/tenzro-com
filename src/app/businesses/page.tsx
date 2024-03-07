@@ -7,7 +7,7 @@ export default function Businesses() {
                         <h1 className="mono-regular-h font-medium text-4xl md:text-6xl leading-tight md:leading-tight tracking-tight">Tensro for Businesses</h1>
                     </div>
                     <div className="md:w-1/2">
-                        <p className="md:mt-0 mt-6 md:pl-12 text-base md:text-lg mono-regular-h">Businesses leveraging Tenzro benefit from personalized experiences tailored to their target audience in Web3. Content can be precisely targeted to users&apos; interests, saving time in content creation through automatic generation of product descriptions. Tenzro&apos;s simplified onboarding, including automatic wallet generation and a familiar Web2-like user experience, ensures seamless adoption without the need to learn new technologies.</p>
+                        <p className="md:mt-0 mt-6 md:pl-12 text-base md:text-lg mono-regular-h">Businesses on Tenzro benefit from personalized experiences tailored to their target audience in Web3. Content can be precisely targeted to users&apos; interests, while saving time in content creation through automatic generation of product descriptions. Tenzro&apos;s simplified onboarding, including automatic wallet generation and a familiar Web2-like user experience, ensures seamless adoption without the need to learn new technologies.</p>
                     </div>
                 </div>
             </div>
