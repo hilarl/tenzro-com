@@ -13,6 +13,14 @@ const links = [
     href: "/developers",
   },
   {
+    title: "Creators",
+    href: "/creators",
+  },
+  {
+    title: "Businesses",
+    href: "/businesses",
+  },
+  {
     title: "Ecosystem",
     href: "/ecosystem",
   },

@@ -16,7 +16,6 @@ export default function Footer() {
                     <ul className='ml-4'>
                         <li><Link href="https://x.com/tenzr0">X</Link></li>
                         <li><Link href="https://linkedin.com/company/tenzro">LinkedIn</Link></li>
-                        <li><Link href="https://medium.com/tenzro">Medium</Link></li>
                         <li><Link href="https://t.me/+VvTmMD4Z6QBlM2Jk">Telegram</Link></li>
                         <li><Link href="mailto:team@tenzro.com">Email</Link></li>
                     </ul>
