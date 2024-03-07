@@ -17,6 +17,10 @@ const links = [
     href: "/ecosystem",
   },
   {
+    title: "Research",
+    href: "/research",
+  },
+  {
     title: "Blog",
     href: "https://medium.com/tenzro",
     // src: "home.png"
