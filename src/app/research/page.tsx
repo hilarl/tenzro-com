@@ -12,13 +12,13 @@ export default function Research() {
                 </div>
                 <div className="flex flex-col">
                     <div className="md:flex">
-                        <div className="md:w-1/2 m-4 mb-8 md:mb-4 rounded-xl border-black border-2 h-96">
+                        <div className="md:w-1/2 m-4 mb-8 md:mb-4 rounded-xl border-black border-2 min-h-96">
                             <div className='m-8 mb-12'>
                                 <h2 className='text-xl md:text-2xl  mono-medium-h'>Federated Learning</h2>
                                 <p className='mono-light mt-6 text-base md:text-lg'>Our ongoing research focuses on crafting a decentralized AI framework that empowers users to retain control over their data while incentivizing their contributions to model training. Through this approach, we aim to cultivate a collaborative ecosystem where privacy is prioritized, and participants are duly rewarded for their involvement in shaping AI advancements.</p>
                             </div>
                         </div>
-                        <div className="md:w-1/2 m-4 mb-8 md:mb-4 rounded-xl border-black border-2 h-96">
+                        <div className="md:w-1/2 m-4 mb-8 md:mb-4 rounded-xl border-black border-2 min-h-96">
                             <div className='m-8 mb-12'>
                                 <h2 className='text-xl md:text-2xl  mono-medium-h'>Zero-knowledge proof</h2>
                                 <p className='mono-light mt-6 text-base md:text-lg'>Our efforts center on developing scalable encryption solutions that align with our commitment to safeguarding privacy and user data. Through research, we aim to establish robust systems that ensure data confidentiality while fostering trust and security in digital interactions.</p>
