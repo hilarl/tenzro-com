@@ -29,8 +29,8 @@ const links = [
     href: "/research",
   },
   {
-    title: "Blog",
-    href: "https://medium.com/tenzro",
+    title: "Vision",
+    href: "/vision",
     // src: "home.png"
   },
   {
