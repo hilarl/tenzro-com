@@ -15,7 +15,7 @@ export default function Ecosystem() {
             <div>
                 <div className="flex flex-col">
                     <div className="md:flex">
-                        <div className="md:w-1/2 m-4 rounded-xl border">
+                        <div className="md:w-1/2 m-4 mb-8 md:mb-4 rounded-xl border">
                             <Image
                                 src="/naios-ui.png"
                                 width={800}
@@ -24,8 +24,8 @@ export default function Ecosystem() {
                                 className='mx-auto rounded-xl'
                             />
                             <div className='m-8 mb-12'>
-                                <h2 className='text-xl md:text-2xl  mono-medium-h'>Naios</h2>
-                                <p className='mono-regular-h mt-2 text-lg'>Naios uses Tenzro&apos;s Machine Learning models to develop advanced tools used for music production.</p>
+                                <h2 className='text-lg md:text-2xl  mono-medium-h'>Naios</h2>
+                                <p className='mono-regular-h mt-2 text-base md:text-lg'>Naios uses Tenzro&apos;s Machine Learning models to develop advanced tools used for music production.</p>
                             </div>
                         </div>
                         <div className="md:w-1/2 m-4 rounded-xl border">
@@ -37,8 +37,8 @@ export default function Ecosystem() {
                                 className='mx-auto rounded-xl'
                             />
                             <div className='m-8 mb-12'>
-                                <h2 className='text-xl md:text-2xl  mono-medium-h'>PRVNZ</h2>
-                                <p className='mono-regular-h mt-2 text-lg'>PRVNZ uses Tenzro&apos;s AI models to simplify Web3 for small businesses and streamline e-commerce customer experiences.</p>
+                                <h2 className='text-lg md:text-2xl  mono-medium-h'>PRVNZ</h2>
+                                <p className='mono-regular-h mt-2 text-base md:text-lg'>PRVNZ uses Tenzro&apos;s AI models to simplify Web3 for small businesses and streamline e-commerce customer experiences.</p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export default function Ecosystem() {
 
 
             </div>
-            <div className='mt-24 px-12 rounded-xl py-24 border'>
+            <div className='mt-24 px-12 rounded-xl py-12 md:py-24 border'>
                 <Image
                     src="/brands.png"
                     width={1280}
@@ -61,7 +61,8 @@ export default function Ecosystem() {
             </div>
             <div>
                 <h1 className="mt-32 mono-regular-h font-medium text-2xl md:text-4xl leading-tight md:leading-tight tracking-tight">Start creating with Tenzro’s AI infrastructure.</h1>
-                <button className='border-2 mono-regular-h border-black px-16 py-6 rounded-xl mt-12 text-2xl'>
+                <button className='border-2 mono-regular-h border-black px-8 py-4 md:px-16 md:py-6 rounded-xl mt-12 text-lg
+            md:text-2xl'>
                     <Link href="mailto:team@tenzro.com">Get Started</Link>
                 </button>
             </div>
