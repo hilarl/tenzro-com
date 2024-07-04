@@ -37,8 +37,8 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
         <div class="grid place-items-center h-1/4 p-8 md:-p-0 md:h-1/3 mt-52 md:mt-60 w-full md:w-2/3 m-auto">
-          <h1 class="text-3xl md:text-6xl text-center text-white mono-medium-h">Build smarter, safer web3 applications</h1>
-          <h3 class="text-sm md:text-md md:text-xl mt-6 md:mt-8 text-center text-white mono-light md:px-14">Our novel digital infrastructure injects artificial intelligence and encryption into the blockchain, enabling developers to build web3 applications that are intelligent and secure.</h3>
+          <h1 class="text-3xl md:text-5xl text-center text-white mono-medium-h">Decentralized AI Training and Compute System</h1>
+          <h3 class="text-sm md:text-md md:text-xl mt-6 md:mt-8 text-center text-white mono-light md:px-14">A peer-to-peer network where anyone with a device and an internet connection can participate in AI training and compute.</h3>
         </div>
       </section>
 
@@ -46,26 +46,25 @@ export default function Home() {
       <div className='px-6 md:px-12 mt-20'>
         <div className="md:flex py-12 md:py-0 md:h-72">
           <div className="w-full md:w-3/4">
-            <h1 className="mono-regular-h text-3xl text-left md:text-left">Combining decentralization, intelligence, scalability, and privacy, while incentivizing participation.</h1>
+            <h1 className="mono-regular-h text-3xl text-left md:text-left">Centralized AI development often results in monopolistic control, biased models, and privacy breaches.</h1>
           </div>
           <div className="w-full md:w-full">
-            <p className="mono-regular-h mt-8 md:mt-0 md:pl-14 text-xl text-left md:text-left">Tenzro combines Machine Learning, Artificial Intelligence, and Encryption, seamlessly within its Blockchain ecosystem.</p>
+            <p className="mono-regular-h mt-8 md:mt-0 md:pl-14 text-xl text-left md:text-left">Tenzro democratizes access to AI resources, allowing a diverse range of participants to contribute to and benefit from AI advancements.</p>
           </div>
         </div>
       </div>
       <div class='min-h-screen px-6 md:px-12' id="discover">
         <div class="md:flex">
           <div class="p-6 md:p-8 w-full md:w-1/2 border border-neutral-200 rounded-lg text-black h-auto md:h-72 mt-20 mr-20 mono-regular-h">
-            <h1 className="text-xl md:text-3xl mb-4">Whats possible with Tenzro</h1>
-            <p className="mb-24 text-sm md:text-base text-neutral-400 mono-light">Build AI-powered apps on Tenzro with our ML tools.</p>
-            <Link className="text-sm md:text-base font-bold" href="mailto:team@tenzro.com">GET IN TOUCH</Link>
+            <h1 className="text-xl md:text-2xl mb-4">Contribute to a Fairer AI Future</h1>
+            <p className="mb-24 text-sm md:text-base text-neutral-400 mono-light">Be a part of the Tenzro network and contribute to a decentralized, ethical, and sustainable AI ecosystem. Whether you are a developer, data contributor, or and AI enthusiast, Tenzro offers a platform for meaningful participation and impact.</p>
           </div>
           <div class="md:w-1/2">
             <Accordion type="single" collapsible className="w-full mt-12 mb-20">
               <AccordionItem value="item-1" className="accordion-item w-full text-left">
                 <div class="pb-8">
                   <AccordionTrigger className="accordion-title">
-                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300">1</span>Built-in ML & AI</span>
+                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300">1</span>Peer-to-Peer Network</span>
                   </AccordionTrigger>
                   <AccordionContent className="accordion-content mono-light leading-relaxed">
                     <motion.div
@@ -75,7 +74,7 @@ export default function Home() {
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}
                     >
-                      Tenzro incorporates advanced AI and ML models directly into its platform, providing intelligent analysis, prediction, and decision-making capabilities to enhance user experiences and insights for apps building on the platform.
+                      Tenzro&apos;s decentralized approach enables a peer-to-peer network where anyone with a device and an internet connection.
                     </motion.div>
                   </AccordionContent>
                 </div>
@@ -83,7 +82,7 @@ export default function Home() {
               <AccordionItem value="item-2" className="accordion-item w-full text-left">
                 <div class="pb-8">
                   <AccordionTrigger className="accordion-title">
-                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">2</span>Privacy controls</span>
+                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">2</span>On-Device Processing</span>
                   </AccordionTrigger>
                   <AccordionContent className="accordion-content mono-light leading-relaxed">
                     <motion.div
@@ -93,7 +92,7 @@ export default function Home() {
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}
                     >
-                      Tenzro prioritizes user privacy by implementing robust privacy controls, ensuring that personal data is encrypted and securely managed. Users have granular control over their data, with the assurance that it is only accessible to them.
+                      Tenzro utilizes the computing power of individual devices, minimizing the need for large, centralized data centers.
                     </motion.div>
                   </AccordionContent>
                 </div>
@@ -101,7 +100,7 @@ export default function Home() {
               <AccordionItem value="item-3" className="accordion-item w-full text-left">
                 <div class="pb-8">
                   <AccordionTrigger className="accordion-title">
-                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">3</span>Scalable & fast</span>
+                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">3</span>Incentivized Participation</span>
                   </AccordionTrigger>
                   <AccordionContent className="accordion-content mono-light leading-relaxed">
                     <motion.div
@@ -111,7 +110,7 @@ export default function Home() {
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}
                     >
-                      Leveraging the Avalanche consensus protocol, Tenzro achieves scalability and speed within its blockchain ecosystem. This architecture allows for rapid transaction processing and seamless scalability, ensuring optimal performance even as the platform grows.
+                      Contributors, or Trainers, earn an income for providing data, computing power, and model training.
                     </motion.div>
                   </AccordionContent>
                 </div>
@@ -119,7 +118,7 @@ export default function Home() {
               <AccordionItem value="item-4" className="accordion-item w-full text-left">
                 <div class="pb-8">
                   <AccordionTrigger className="accordion-title">
-                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">4</span>Truly decentralized</span>
+                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">4</span>Intelligent Digital Assets</span>
                   </AccordionTrigger>
                   <AccordionContent className="accordion-content mono-light leading-relaxed">
                     <motion.div
@@ -129,25 +128,7 @@ export default function Home() {
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}
                     >
-                      Tenzro is governed by a DAO, which enables developers, academics, researchers, to participate and contribute to its vision. Participants have a voice in shaping the direction and development of the Tenzro ecosystem.
-                    </motion.div>
-                  </AccordionContent>
-                </div>
-              </AccordionItem>
-              <AccordionItem value="item-5" className="accordion-item w-full text-left">
-                <div class="pb-8">
-                  <AccordionTrigger className="accordion-title text-left">
-                    <span className='text-xl md:text-3xl'><span className="text-2xl md:text-4xl mr-4 text-neutral-300 ">5</span>Incentivized economy</span>
-                  </AccordionTrigger>
-                  <AccordionContent className="accordion-content mono-light leading-relaxed">
-                    <motion.div
-                      className="accordion-content text-md md:text-lg"
-                      key="modal"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                    >
-                      Tenzro is designed to foster an incentivized economy where users are rewarded for their contributions and participation within the ecosystem. Through token incentives and rewards, users are encouraged to engage actively, driving growth, innovation, and community involvement.
+                      The Contextual Framework enables intelligent digital assets by integrating AI-driven vector embeddings and metadata, enhancing discoverability and user interactions with advanced contextual understanding.
                     </motion.div>
                   </AccordionContent>
                 </div>
@@ -162,28 +143,28 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 md:p-12 mono-medium-h">
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-xl md:text-2xl mb-4">Cortex</h1>
-            <p className="text-sm md:text-base mono-light leading-relaxed">The central intelligence hub that powers all AI functionalities of Tenzro, seamlessly integrating with its blockchain ecosystem.</p>
+            <h1 className="text-xl md:text-2xl mb-4">Training System</h1>
+            <p className="text-sm md:text-base mono-light leading-relaxed">Participants, in Tenzro&apos;s AI training system contribute to the network and are rewarded with tokens.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-xl md:text-2xl mb-4">Radar</h1>
-            <p className="text-sm md:text-base mono-light leading-relaxed">Personalized content recommendations suggest assets tailored to your risk tolerance and investment goals, guiding you towards informed decisions.</p>
+            <h1 className="text-xl md:text-2xl mb-4">Data Marketplace</h1>
+            <p className="text-sm md:text-base mono-light leading-relaxed">A decentralized marketplace for training data and processed data, participants are incentivized fairly.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-xl md:text-2xl mb-4">Insights</h1>
-            <p className="text-sm md:text-base mono-light leading-relaxed">Real-time trend and reputation tracking analyzes social media buzz, market fluctuations, and community sentiment to identify rising stars and potential pitfalls.</p>
+            <h1 className="text-xl md:text-2xl mb-4">Contextual Framework</h1>
+            <p className="text-sm md:text-base mono-light leading-relaxed">Tenzro’s contextual framework enables the seamless integration of AI with blockchain-based content.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-xl md:text-2xl mb-4">Lens</h1>
-            <p className="text-sm md:text-base mono-light leading-relaxed">AI-powered content analysis extracts information from text, images, and audio, to reveal deeper meaning and relationships behind digital assets in the Tenzro ecosystem.</p>
+            <h1 className="text-xl md:text-2xl mb-4">Compute Currency</h1>
+            <p className="text-sm md:text-base mono-light leading-relaxed">A utility token, which is used for accessing compute power, services, and features within the ecosystem.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-xl md:text-2xl mb-4">Create</h1>
-            <p className="text-sm md:text-base mono-light leading-relaxed">Enables creation of diverse creative content using Generative AI.</p>
+            <h1 className="text-xl md:text-2xl mb-4">The Cortex</h1>
+            <p className="text-sm md:text-base mono-light leading-relaxed">a sophisticated AI infrastructure designed to facilitate the management and access of AI models.</p>
           </div>
           <div className="border border-neutral-200 rounded-lg p-8">
-            <h1 className="text-xl md:text-2xl mb-4">Oracle</h1>
-            <p className="text-sm md:text-base mono-light leading-relaxed">A conversational AI search assistant that can be trained with custom data to answer questions or be a guide to help discover digital assets.</p>
+            <h1 className="text-xl md:text-2xl mb-4">DAO</h1>
+            <p className="text-sm md:text-base mono-light leading-relaxed">The Tenzro DAO is structured to ensure effective decision-making and the sustainable growth of the ecosystem.</p>
           </div>
         </div>
 
